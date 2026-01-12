@@ -21,15 +21,15 @@ const Projects = () => {
         "Redux",
         "JWT",
       ],
-      demo: "https://ecommerce-demo.com",
-      github: "https://github.com/yourusername/ecommerce",
+      demo: "https://react-ecommerce-sigma-coral.vercel.app",
+      github: "https://github.com/shubhamgyawali7/react-e-commerce.git",
     },
     {
       title: "Job Seeking Portal (RojgaarHub)",
       image: rojgaarhub,
       description:
         "An online portal for job search, applications, and recruitment management.",
-      tags: ["Next.js", "Chart.js"],
+      tags: ["MERN", "JWT", "Redux", "Tailwindcss"],
       demo: "https://rojgaarhub-jobseekingportal.netlify.app",
       github: "https://github.com/shubhamgyawali7/job_seeking.git",
     },
@@ -40,7 +40,7 @@ const Projects = () => {
         "A modern portfolio website built with React and smooth animations.",
       tags: ["React", "Tailwindcss", "Framer Motion"],
       demo: "https://shubhamgyawali.me",
-      // github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/shubhamgyawali7/Portfolio.git",
     },
   ];
 
