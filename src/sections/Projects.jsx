@@ -39,7 +39,7 @@ const Projects = () => {
       description:
         "A modern portfolio website built with React and smooth animations.",
       tags: ["React", "Tailwindcss", "Framer Motion"],
-      demo: "https://shubhamgyawali.",
+      demo: "https://shubhamgyawali.me",
       github: "https://github.com/shubhamgyawali7/Portfolio.git",
     },
   ];
