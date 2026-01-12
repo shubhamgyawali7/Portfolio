@@ -1,1 +1,10 @@
 # Portfolio
+
+using
+React + TailwindCSS + Framer Motion + EmailJs
+
+## Go to the EmailJS website dashboard to get your own keys
+
+VITE_EMAILJS_SERVICE_ID=
+VITE_EMAILJS_TEMPLATE_ID=
+VITE_EMAILJS_PUBLIC_KEY=

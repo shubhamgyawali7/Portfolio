@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+/* Now everything else goes below it */
 :root {
   --brand-orange: #ff6600;
   --bg-primary: #ffffff;
