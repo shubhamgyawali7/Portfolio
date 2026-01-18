@@ -44,7 +44,7 @@ const About = () => {
           <div className="mt-10">
             <a
               href="/resumeFile/Shubham-Gyawali_Resume.pdf"
-              download="Shubham-Gyawali_Resume.pdf"
+              download="Shubham-Gyawali-Resume.pdf"
               target="_blank"
               rel="noreferrer"
             >
