@@ -43,7 +43,7 @@ const About = () => {
           {/* CTA Button for Bio side */}
           <div className="mt-10">
             <a
-              href="/resumeFile/Myself_Resume.pdf"
+              href="/resumeFile/Shubham-Gyawali_Resume.pdf"
               download="Shubham-Gyawali_Resume.pdf"
               target="_blank"
               rel="noreferrer"
