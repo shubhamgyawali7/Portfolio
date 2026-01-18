@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Education from "../components/Education";
-import resumePDF from "../assets/resumeFile/Myself_Resume.pdf";
 
 const About = () => {
   return (
@@ -44,7 +43,7 @@ const About = () => {
           {/* CTA Button for Bio side */}
           <div className="mt-10">
             <a
-              href={resumePDF}
+              href="/resumeFile/Myself_Resume.pdf"
               download="Shubham-Gyawali_Resume.pdf"
               target="_blank"
               rel="noreferrer"
