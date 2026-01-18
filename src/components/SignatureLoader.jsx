@@ -1,54 +1,69 @@
-import { motion } from "framer-motion";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 const SignatureLoader = ({ onFinished }) => {
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      onFinished();
-    }, 3000);
+  const name = "Shubham Gyawali";
 
+  useEffect(() => {
+
+    const timer = setTimeout(() => {
+      onFinished(); 
+    }, 3500); 
     return () => clearTimeout(timer);
   }, [onFinished]);
 
+  const containerVariants = {
+    animate: {
+      transition: { staggerChildren: 0.05, delayChildren: 0.2 },
+    },
+  };
+
+  const letterVariants = {
+    initial: { opacity: 0, y: 15 },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.7, ease: "easeOut" },
+    },
+  };
+
   return (
     <motion.div
-      className="fixed inset-0 z-999 flex flex-col items-center justify-center bg-black"
       initial={{ y: 0 }}
-      exit={{ y: "-100%" }}
-      transition={{ duration: 0.8, ease: [0.87, 0, 0.13, 1] }}
+      exit={{ y: "-150vh" }}
+      transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
+      className="fixed inset-0 z-100 flex items-center justify-center bg-black text-white"
     >
-      <div className="relative overflow-hidden p-10">
-        <svg
-          width="400"
-          height="100"
-          viewBox="0 0 400 100"
-          className="w-72 md:w-165"
-        >
-          <motion.text
-            x="50%"
-            y="50%"
-            textAnchor="middle"
-            dominantBaseline="middle"
-            className="text-5xl md:text-6xl italic font-bold"
-            style={{
-              fontFamily: "'Dancing Script', cursive",
-              fill: "transparent",
-              stroke: "#FF6600",
-              strokeWidth: "1.5",
-            }}
-            initial={{ pathLength: 0, opacity: 0 }}
-            animate={{ pathLength: 1, opacity: 1 }}
-            transition={{ duration: 2, ease: "easeInOut" }}
-          >
-            SHUBHAM GYAWALI
-          </motion.text>
-        </svg>
-        {/* Line */}
+
+      <div className="relative flex flex-col items-center w-full max-w-[90vw] px-4">
+        
         <motion.div
-          className="h-0.5 bg-[#FF6600] mx-auto mt-4"
-          initial={{ width: 0 }}
-          animate={{ width: "100%" }}
-          transition={{ duration: 1.5, ease: "easeInOut", delay: 0.5 }}
+          variants={containerVariants}
+          initial="initial"
+          animate="animate"
+
+          className="flex flex-wrap justify-center mb-6"
+        >
+          {name.split("").map((char, index) => (
+            <motion.span
+              key={index}
+              variants={letterVariants}
+              className="text-3xl sm:text-5xl md:text-7xl font-bold italic"
+              style={{
+                fontFamily: "'Dancing Script', cursive",
+                display: char === " " ? "pre" : "inline-block",
+              }}
+            >
+              {char}
+            </motion.span>
+          ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ scaleX: 0 }}
+          animate={{ scaleX: 1 }}
+          transition={{ delay: 1, duration: 1.5, ease: "circOut" }}
+          className="w-full max-w-50 md:max-w-100 h-px bg-orange-600 origin-center opacity-70"
         />
       </div>
     </motion.div>
