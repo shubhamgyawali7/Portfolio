@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Skill from "./sections/Skill";
 import SignatureLoader from "./components/SignatureLoader";
 import "./styles/index.css";
+import ScrollingText from "./components/ScrollingText";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,6 +40,7 @@ export default function App() {
           <Navbar />
           <main>
             <Hero />
+            <ScrollingText/>
             <About />
             <Skill />
             <Projects />

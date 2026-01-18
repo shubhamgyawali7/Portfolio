@@ -21,6 +21,11 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="text-2xl font-black text-black"
         >
+              {/* <img
+            src="/logo/my-logo1.png"
+            alt="Portfolio Logo"
+            className="h-10 w-auto"
+          /> */}
           PORT<span className="text-brand-orange">FOLIO.</span>
         </motion.div>
 

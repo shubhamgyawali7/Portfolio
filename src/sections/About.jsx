@@ -18,7 +18,12 @@ const About = () => {
         >
           <h2 className="text-5xl text-black md:text-4xl font-black mb-8 leading-none">
             WHO <br />
-            <span className="text-5xl text-[#FF6600]  md:text-7xl">I AM.</span>
+            <span className="text-5xl text-[#FF6600]  md:text-7xl">I AM</span>
+            <img
+              src="/logo/my-logo1.png"
+              alt="Portfolio Logo"
+              className="h-12 w-12  mb-6 inline-block ml-4 rounded-full border-2 border-black object-cover"
+            />
           </h2>
 
           <div className="space-y-4 text-gray-700 text-lg md:text-xl font-medium leading-relaxed">
