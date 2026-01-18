@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Education from "../components/Education";
-
+import resumePDF from "../assets/resumeFile/Myself_Resume.pdf";
 
 const About = () => {
   return (
@@ -38,9 +38,16 @@ const About = () => {
 
           {/* CTA Button for Bio side */}
           <div className="mt-10">
-            <button className="bg-black text-white px-10 py-4 font-bold uppercase rounded-xl shadow-[6px_6px_0px_0px_rgba(255,102,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all">
-              Download CV
-            </button>
+            <a
+              href={resumePDF}
+              download="Shubham-Gyawali_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-black text-white px-10 py-4 font-bold uppercase rounded-xl shadow-[6px_6px_0px_0px_rgba(255,102,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all">
+                Download CV
+              </button>
+            </a>
           </div>
         </motion.div>
 
