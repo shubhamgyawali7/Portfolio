@@ -25,8 +25,8 @@ Check out the live version of my portfolio here: [shubhamgyawali.me/shubhamgyawa
 
 * **Frontend:** React.js / Next.js (Change based on your project)
 * **Styling:** Tailwind CSS / Framer Motion (for animations)
-* **Icons:** Lucide-React / FontAwesome
-* **Deployment:** Vercel / Netlify / GitHub Pages
+* **Icons:** Lucide-React 
+
 
 ---
 
@@ -57,39 +57,53 @@ To get a local copy up and running, follow these steps:
 * **Node.js** installed on your machine.
 * **npm** or **yarn** package manager.
 
-### Installation
+To make your **Portfolio** `README.md` look professional and clean, here is the exact block you can copy. I have added a few "quality of life" improvements like the `cd` command (so people don't get an error) and a link to the local host.
 
-1. Clone the repo:
+---
+
+### 🚀 Installation & Setup
+
+To get a local copy of this portfolio up and running, follow these simple steps:
+
+1. **Clone the repository**
 ```bash
 git clone https://github.com/shubhamgyawali7/Portfolio.git
 
 ```
 
 
-2. Install dependencies:
+2. **Navigate into the project folder**
+```bash
+cd Portfolio
+
+```
+
+
+3. **Install all dependencies**
 ```bash
 npm install
 
 ```
 
 
-3. Start the development server:
+4. **Start the development server**
 ```bash
 npm run dev
 
 ```
 
 
-
 ---
 
-## 📧 Contact Me
+### 📧 Contact Me
 
 Feel free to reach out if you have questions, want to collaborate, or just want to say hi!
 
 * **Email:** [shubhamgyawali13.gyawali@gmail.com](mailto:shubhamgyawali13.gyawali@gmail.com)
-* **LinkedIn:** [linkedin.com/in/shubham-gyawali-220859348](https://linkedin.com/in/shubham-gyawali-220859348)
+* **LinkedIn:** [linkedin.com/in/shubham-gyawali-220859348](https://www.google.com/search?q=https://linkedin.com/in/shubham-gyawali-220859348)
 * **GitHub:** [@shubhamgyawali7](https://github.com/shubhamgyawali7)
+
+---
 
 ---
 
