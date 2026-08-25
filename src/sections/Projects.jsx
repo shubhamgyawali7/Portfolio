@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
 import ecommerce from "../assets/projects/ecommerce1.png";
 import rojgaarhub from "../assets/projects/jobseeking.png";
-import portfolio from "../assets/projects/portfolio1.png";
+import eventhub from "../assets/projects/eventhub/home.jpeg";
 // ... imports for images ...
 
 const Projects = () => {
@@ -34,13 +34,13 @@ const Projects = () => {
       github: "https://github.com/shubhamgyawali7/job_seeking.git",
     },
     {
-      title: "Own Portfolio",
-      image: portfolio,
+      title: "EventHub",
+      image: eventhub,
       description:
-        "A modern portfolio website built with React and smooth animations.",
-      tags: ["React", "Tailwindcss", "Framer Motion"],
-      demo: "https://shubhamgyawali.me",
-      github: "https://github.com/shubhamgyawali7/Portfolio.git",
+        "A smart centralized platform for discovering and managing IT events across Nepal, connecting students with verified technical opportunities.",
+      tags: ["React", "Node.js", "Express", "MongoDB", "Tailwindcss"],
+      demo: "https://event-hub-eight-rho.vercel.app",
+      github: "https://github.com/shubhamgyawali7/EventHub.git",
     },
   ];
 
