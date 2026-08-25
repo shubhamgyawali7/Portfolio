@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Github, Twitter, Linkedin, Instagram, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,6 +11,16 @@ const Footer = () => {
           <p className="text-gray-400 mt-2">
             Available for freelance and full-time roles.
           </p>
+          <div className="flex items-center gap-4 mt-4 text-gray-400 text-sm">
+            <a href="tel:+9779841942577" className="flex items-center gap-2 hover:text-[#FF6600] transition-colors">
+              <Phone className="w-4 h-4" />
+              +977 9841942577
+            </a>
+            <span className="flex items-center gap-2">
+              <MapPin className="w-4 h-4" />
+              Tilottama-4, Rupandehi, Nepal
+            </span>
+          </div>
         </div>
 
         <div className="flex space-x-6">
