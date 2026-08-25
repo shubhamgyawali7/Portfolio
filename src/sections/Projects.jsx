@@ -11,7 +11,7 @@ const Projects = () => {
       title: "E-Commerce",
       image: ecommerce,
       description:
-        "A comprehensive full-stack job portal application designed to streamline the hiring process. This platform allows Job Seekers to find their dream jobs and Recruiters to post openings and manage applications efficiently.",
+        "A full-stack E-Commerce website with custom JWT authentication and Redux state management.",
       tags: [
         "React",
         "Tailwindcss",
