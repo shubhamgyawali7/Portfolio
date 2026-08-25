@@ -11,7 +11,7 @@ const Projects = () => {
       title: "E-Commerce",
       image: ecommerce,
       description:
-        "A full-stack E-Commerce website with custom JWT authentication and Redux state management.",
+        "A comprehensive full-stack job portal application designed to streamline the hiring process. This platform allows Job Seekers to find their dream jobs and Recruiters to post openings and manage applications efficiently.",
       tags: [
         "React",
         "Tailwindcss",
@@ -28,8 +28,8 @@ const Projects = () => {
       title: "Job Seeking Portal (RojgaarHub)",
       image: rojgaarhub,
       description:
-        "An online portal for job search, applications, and recruitment management.",
-      tags: ["MERN", "JWT", "Redux", "Tailwindcss"],
+        "A secure and scalable job-seeking platform with job posting, searching, filtering, application tracking, authentication, and responsive frontend functionality.",
+      tags: ["MERN Stack", "JWT", "REST APIs", "Redux", "Tailwind CSS"],
       demo: "https://rojgaarhub-jobseekingportal.netlify.app",
       github: "https://github.com/shubhamgyawali7/job_seeking.git",
     },
@@ -37,8 +37,8 @@ const Projects = () => {
       title: "EventHub",
       image: eventhub,
       description:
-        "A smart centralized platform for discovering and managing IT events across Nepal, connecting students with verified technical opportunities.",
-      tags: ["React", "Node.js", "Express", "MongoDB", "Tailwindcss"],
+        "A full-stack IT event management platform designed to connect students with technical events and opportunities with role-based dashboards and payment integration.",
+      tags: ["MERN Stack", "JWT", "eSewa", "Khalti", "Tailwind CSS"],
       demo: "https://event-hub-eight-rho.vercel.app",
       github: "https://github.com/shubhamgyawali7/EventHub.git",
     },

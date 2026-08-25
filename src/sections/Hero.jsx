@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import image from "../assets/image1.png";
 
-const roles = ["Full-Stack Developer", "Graphic Designer", "Problem Solver"];
+const roles = ["Full-Stack Web Developer", "Backend-Focused Developer", "Problem Solver"];
 
 const Hero = () => {
   const [index, setIndex] = useState(0);

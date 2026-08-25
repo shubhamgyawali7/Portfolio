@@ -27,16 +27,16 @@ const About = () => {
 
           <div className="space-y-4 text-gray-700 text-lg md:text-xl font-medium leading-relaxed">
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              I am a BSc CSIT student with a keen interest in web development
-              and modern technologies. I focus on building efficient and
-              practical web applications that solve real-world problems.
+              I am a Full-Stack Web Developer with a strong backend focus,
+              specializing in the MERN stack. I enjoy building secure, scalable
+              APIs and practical web applications that solve real-world problems.
             </p>
 
             <p className="text-gray-600 text-lg leading-relaxed">
-              My interests lie in building responsive user interfaces,
-              developing full-stack applications, and continuously learning new
-              tools and frameworks. I aim to grow as a software developer while
-              contributing to meaningful projects that create real impact.
+              My interests include backend architecture, RESTful APIs,
+              authentication, database design, real-time communication, and
+              modern frontend development. I continuously learn new technologies
+              and focus on building reliable and useful software.
             </p>
           </div>
 

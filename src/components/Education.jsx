@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 const educationData = [
   {
     degree:
-      "Bachelor of Science in Computer Science and Information Technology (BSc CSIT)",
-    institution: "Butwal Multiple Campus, Tribhuvan University",
-    duration: "2079 - Present",
+      "Bachelor of Science in Computer Science and Information Technology (BSc. CSIT)",
+    institution: "Butwal Multiple Campus, Butwal, Nepal",
+    duration: "2023 – Present",
   },
   {
-    degree: "+2 Science (Technical)",
-    institution: "Kalika Manavgyan School, Nepal",
-    duration: "2076-2079 B.S.",
+    degree: "+2 Technical – Computer Engineering",
+    institution: "Kalika Manavgyan Secondary School, Butwal, Nepal",
+    duration: "Completed 2079 B.S. (2022 AD)",
   },
 ];
 
